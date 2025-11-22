@@ -1,18 +1,18 @@
-# 🛢️ Predictive Petroleum Exploration Analysis – OilyGiant
+# Predictive Petroleum Exploration Analysis – OilyGiant
 
-## 📜 Project Description
+## Project Description
 
 This Data Science project focuses on the **financial evaluation and optimal region selection** for oil well development for the OilyGiant company.
 
 A predictive model was developed to estimate the volume of reserves in three candidate regions, followed by a rigorous risk analysis to ensure the profitability and stability of the investment. The final decision is based on a strict financial risk criterion.
 
-## 🎯 Business Objectives
+## Business Objectives
 
 1.  **Predictive Modeling:** Create a Linear Regression model to accurately predict the volume of reserves (`product`) in each well.
 2.  **Risk Analysis:** Employ the **Bootstrapping** technique to evaluate the financial risk in each region, projecting the distribution of profits.
 3.  **Optimal Selection:** Select the region that guarantees a **positive average profit** and a risk of incurring losses **below 2.5%**.
 
-## 🛠️ Methodology and Risk Analysis
+## Methodology and Risk Analysis
 
 ### 1. Predictive Modeling (Linear Regression)
 
@@ -29,7 +29,7 @@ A predictive model was developed to estimate the volume of reserves in three can
 
 The *Bootstrapping* technique was applied with 1000 samples to calculate the profit distribution, average profit, and percentage of loss risk for each region.
 
-## 📈 Key Results and Conclusion
+## Key Results and Conclusion
 
 | Region | Risk of Loss (%) | Projected Average Profit | Meets Risk Criterion (< 2.5%) |
 | :--- | :--- | :--- | :--- |
@@ -45,7 +45,7 @@ Based on the company's stringent financial criteria:
 
 Therefore, the recommendation is to **focus development and investment of 200 wells in Region 1**.
 
-## 💻 Technologies Used
+## Technologies Used
 
 * **Language:** Python
 * **Key Libraries:** `pandas`, `numpy`, `sklearn.linear_model` (`LinearRegression`), `sklearn.metrics` (`mean_squared_error`).
